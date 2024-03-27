@@ -1,16 +1,16 @@
 import Link from 'next/link'
 
-export default function Home() {
+export default function SettingsPage() {
   return (
     <main>
-      <h1>Next Guide - Router</h1>
+      <h1>Settings</h1>
       <nav>
         <ul>
           <li>
-            <Link href={'/perfil'}>Perfil</Link>
+            <Link href={'/'}>Home</Link>
           </li>
           <li>
-            <Link href={'/settings'}>Settings</Link>
+            <Link href={'/perfil'}>Perfil</Link>
           </li>
         </ul>
       </nav>
