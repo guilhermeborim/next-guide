@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Guide
 
-## Getting Started
+Este repositório contém meus estudos e experimentos relacionados ao Next.js. Aqui, compartilho projetos, tutoriais, dicas e tudo mais que estou aprendendo sobre esta poderosa estrutura para desenvolvimento web.
 
-First, run the development server:
+## Sobre Next.js
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Next.js é um framework de React de código aberto que torna mais fácil criar aplicativos web com React. Ele permite a renderização do lado do servidor (SSR), geração de páginas estáticas e uma experiência de desenvolvimento muito mais rápida e eficiente. Com Next.js, você pode construir desde sites estáticos simples até aplicativos web complexos de última geração.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Estrutura do Repositório
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Cada branch deste repositório corresponde a um assunto específico do Next.js. Aqui está uma visão geral de cada uma delas:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `master`: A branch principal contém informações gerais sobre o repositório e direciona para outras branches.
+- `routes`: Esta branch explora técnicas de roteamento no Next.js, incluindo rotas dinâmicas, rotas aninhadas e configuração de rotas.
 
-## Learn More
+Além dessas branches, outras podem ser criadas no futuro para abordar novos temas ou aprofundar ainda mais os existentes.
 
-To learn more about Next.js, take a look at the following resources:
+## Como Contribuir
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Se você gostaria de contribuir para este repositório, sinta-se à vontade para abrir issues relatando problemas, sugestões ou perguntas relacionadas a um assunto específico. Além disso, pull requests são bem-vindos! Se você tem exemplos adicionais, correções ou aprimoramentos para compartilhar sobre um determinado tópico, por favor, envie um PR e vamos discuti-lo.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Aviso Legal
 
-## Deploy on Vercel
+Os projetos e exemplos neste repositório são apenas para fins educacionais e de demonstração. Embora eu me esforce para garantir a precisão e qualidade do conteúdo aqui presente, não posso garantir sua adequação para qualquer finalidade específica. Use por sua conta e risco.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👷 Autores
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* **Guilherme Machado Borim** - *Desenvolvedor Front End* - [Guilherme](https://github.com/guilhermeborim)
+  
+## 💡 Expressões de gratidão
+
+* Um agradecimento publicamente.
+* Para suporte, mande um email para borimdev@gmail.com.
+* Link para o seu linkedin [Guilherme](https://www.linkedin.com/in/guilherme-borim/)
