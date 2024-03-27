@@ -1,4 +1,3 @@
-<a href="https://borim-portfolio.vercel.app/" target="_blank"><img src="https://imgur.com/Av0V7Sw.png" width='100%' height='300px'/></a> &nbsp;
 # Next Guide
 
 Este repositório contém meus estudos e experimentos relacionados ao Next.js. Aqui, compartilho projetos, tutoriais, dicas e tudo mais que estou aprendendo sobre esta poderosa estrutura para desenvolvimento web.
