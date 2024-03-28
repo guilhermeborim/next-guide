@@ -12,6 +12,7 @@ Cada branch deste repositório corresponde a um assunto específico do Next.js. 
 
 - `master`: A branch principal contém informações gerais sobre o repositório e direciona para outras branches.
 - `router`: Esta branch explora técnicas de roteamento no Next.js, incluindo rotas dinâmicas, rotas aninhadas e configuração de rotas.
+- `fetch`: Esta branch explora técnicas de fetch no servidor quanto no cliente e mostrando a diferença de cada uma.
 
 Além dessas branches, outras podem ser criadas no futuro para abordar novos temas ou aprofundar ainda mais os existentes.
 
