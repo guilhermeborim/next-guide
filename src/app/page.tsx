@@ -13,6 +13,9 @@ export default function Home() {
       <div>
         <Link href={'/input'}>Input</Link>
       </div>
+      <div>
+        <Link href={'/cep'}>Cep</Link>
+      </div>
     </main>
   )
 }
