@@ -1,7 +1,18 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <main>
-      <h1>Next Guide</h1>
+      <h1>Next Guide - SOLID</h1>
+      <div>
+        <Link href={'/profile'}>Profile</Link>
+      </div>
+      <div>
+        <Link href={'/props'}>Props</Link>
+      </div>
+      <div>
+        <Link href={'/input'}>Input</Link>
+      </div>
     </main>
   )
 }
