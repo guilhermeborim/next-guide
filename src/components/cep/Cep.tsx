@@ -1,12 +1,19 @@
-import ApiCep from '@/hooks/apiCep'
+'use client'
+import { useCep } from '@/hooks/useCep'
 
-export default function Cep() {
-  const { cepUser } = ApiCep('12916560')
+const Cep = () => {
+  const { cepUser, handleChange, handleClick } = useCep()
+
   return (
     <div>
+      <h1>Cep</h1>
       {!cepUser && <h1>sem CEP</h1>}
       <h1>{cepUser?.localidade}</h1>
       <h1>{cepUser?.logradouro}</h1>
+      <input onChange={handleChange} />
+      <button onClick={handleClick}>Pegar cep</button>
     </div>
   )
 }
+
+export default Cep
