@@ -16,6 +16,9 @@ export default function Home() {
       <div>
         <Link href={'/cep'}>Cep</Link>
       </div>
+      <div>
+        <Link href={'/categorys'}>Categorys</Link>
+      </div>
     </main>
   )
 }
