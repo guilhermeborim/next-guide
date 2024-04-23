@@ -2,8 +2,12 @@
 import { useFormState, useFormStatus } from 'react-dom'
 
 export default function Home() {
-  // submitForm: Ela esta sendoa function que esta sendo passada no primeiro parametro do useFormState().
-  // Ela tem 2 parametros: prevState sendo o valor do estado anterior e o formData sendo as informacoes do formulario.
+  /**
+   * @param prevState - Estado anterior
+   * @param formData Informacoes do formulario
+   * @returns Retorna um texto com o nome do usuario
+   */
+
   const submitForm = async (prevState, formData) => {
     await new Promise((resolve) => setTimeout(resolve, 2500))
     const name = formData.get('name')
@@ -20,6 +24,7 @@ export default function Home() {
   // state: Me retorna o estado atual do formulario.
   // formAction: Seria o nome da action que vai ser usada no formulario.
   // Os parametros da function useFormState(): O primeiro seria o nome da function que vai ocorrer, e o segundo seria o valor do estado inicial.
+
   const [state, formAction] = useFormState(submitForm, null)
   return (
     <main>
