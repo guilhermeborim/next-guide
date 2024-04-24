@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <h1>Next Guide</h1>
+      <h1>Next Guide - Testing Library</h1>
     </main>
   )
 }
