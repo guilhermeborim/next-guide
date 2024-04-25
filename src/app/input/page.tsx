@@ -1,12 +1,24 @@
-import { InputLabel } from '@/components/input/InputLabel'
-import Input from '@/components/input/input'
+import { Input } from '@/components/input/input'
 
 export default function InputPage() {
   return (
-    <div>
-      <Input>
-        <InputLabel>Input Label</InputLabel>
-      </Input>
-    </div>
+    <>
+      <div>
+        <Input
+          placeholder="Digite seu nome"
+          type="email"
+          name="nome"
+          id="nome"
+        />
+      </div>
+      <div>
+        <Input
+          placeholder="Digite seu email"
+          type="password"
+          name="senha"
+          id="senha"
+        />
+      </div>
+    </>
   )
 }

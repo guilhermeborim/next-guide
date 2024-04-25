@@ -19,6 +19,9 @@ export default function Home() {
       <div>
         <Link href={'/categorys'}>Categorys</Link>
       </div>
+      <div>
+        <Link href={'/button'}>Button</Link>
+      </div>
     </main>
   )
 }
